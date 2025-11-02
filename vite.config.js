@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     target: 'esnext',
-    minify: 'terser',
+    minify: false,  // ✅ Change this
     sourcemap: false,
     outDir: 'dist',
     assetsDir: 'assets',
@@ -27,6 +27,5 @@ export default defineConfig({
     port: 4173,
     host: true
   },
-  // Ensure public folder is served correctly
   publicDir: 'public'
 })
