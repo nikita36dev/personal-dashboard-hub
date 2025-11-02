@@ -1,0 +1,74 @@
+:root[data-theme="dark"] {
+  --bg-primary: #0f0f1e;
+  --bg-secondary: #1a1a2e;
+  --bg-tertiary: #16213e;
+  --bg-hover: #1f2937;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-hover: #4f46e5;
+  --border-color: #2d3548;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --info-color: #3b82f6;
+  --shadow-sm: rgba(0, 0, 0, 0.3);
+  --shadow-md: rgba(0, 0, 0, 0.4);
+  --shadow-lg: rgba(0, 0, 0, 0.5);
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --gradient-secondary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  --scrollbar-track: #1a1a2e;
+  --scrollbar-thumb: #6366f1;
+}
+
+:root[data-theme="daylight"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --bg-hover: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --accent-primary: #3b82f6;
+  --accent-secondary: #06b6d4;
+  --accent-hover: #2563eb;
+  --border-color: #e2e8f0;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --info-color: #3b82f6;
+  --shadow-sm: rgba(0, 0, 0, 0.05);
+  --shadow-md: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.15);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  --gradient-secondary: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  --scrollbar-track: #f1f5f9;
+  --scrollbar-thumb: #3b82f6;
+}
+
+:root[data-theme="eye-protection"] {
+  --bg-primary: #faf8f0;
+  --bg-secondary: #f5f3e8;
+  --bg-tertiary: #ece9dc;
+  --bg-hover: #e5e2d3;
+  --text-primary: #2d2a1f;
+  --text-secondary: #5a5445;
+  --text-tertiary: #7a7565;
+  --accent-primary: #8b7355;
+  --accent-secondary: #a0826d;
+  --accent-hover: #6e5c47;
+  --border-color: #d9d5c3;
+  --success-color: #6b8e23;
+  --warning-color: #cd853f;
+  --danger-color: #c85a54;
+  --info-color: #5b8a8a;
+  --shadow-sm: rgba(45, 42, 31, 0.05);
+  --shadow-md: rgba(45, 42, 31, 0.1);
+  --shadow-lg: rgba(45, 42, 31, 0.15);
+  --gradient-primary: linear-gradient(135deg, #8b7355 0%, #a0826d 100%);
+  --gradient-secondary: linear-gradient(135deg, #6b8e23 0%, #8b9556 100%);
+  --scrollbar-track: #ece9dc;
+  --scrollbar-thumb: #8b7355;
+}
